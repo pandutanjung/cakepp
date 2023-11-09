@@ -7,7 +7,7 @@ Cakepp merupakan sebuah aplikasi berbasis website yang dibuat untuk mempermudah 
 
 | Nama | NIM     |
 | :-------- | :------- | 
-[Anisa Hayatullah](https://www.github.com/octokatherine) | G6401221009 |
+[Anisa Hayatullah](https://github.com/anssshh) | G6401221009 |
 [Nasywa Nouzumi](https://www.github.com/octokatherine)| G6401221048 |
 [Pandu Persada Tanjung](https://www.github.com/pandutanjung)| G6401221097 |
 [Muhammad Eishaf Athallah](https://www.github.com/octokatherine)| G6401221105 |
