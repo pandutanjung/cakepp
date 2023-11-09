@@ -10,5 +10,5 @@ Cakepp merupakan sebuah aplikasi berbasis website yang dibuat untuk mempermudah 
 [Anisa Hayatullah](https://github.com/anssshh) | G6401221009 |
 [Nasywa Nouzumi](https://www.github.com/octokatherine)| G6401221048 |
 [Pandu Persada Tanjung](https://www.github.com/pandutanjung)| G6401221097 |
-[Muhammad Eishaf Athallah](https://www.github.com/octokatherine)| G6401221105 |
+[Muhammad Eishaf Athallah](https://github.com/eishaf)| G6401221105 |
 [Muhammad Fauzil Azhim](https://www.github.com/octokatherine)| G6401221114 |
