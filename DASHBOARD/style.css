@@ -1,0 +1,109 @@
+/* CSS untuk tata letak kartu dan kotak */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Jarak antara kartu */
+    margin-top: 115px; /* Margin atas agar kartu tidak tertutup oleh header */
+    background:lightblue;
+}
+.card {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Tambahkan garis tepi jika diinginkan */
+    border-radius:30px; /* Tambahkan sudut bulat */
+    background-color: rgb(250, 250, 250);
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan pada hover */
+}
+
+/* CSS untuk konten tambahan */
+.content-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+
+}
+.container {
+    position:absolute;
+    right : 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(211, 230, 236);
+}
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 15vh;
+    background: lightblue;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.search{
+    flex: 5;
+    display: flex;
+    justify-content: center;
+}
+
+.search input{
+    border: none;
+    background: white;
+    padding: 12px;
+    width: 40%;
+}
+
+.search button{
+    width:40px;
+    height: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.content{
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+    background: rgb(10, 68, 87);
+}
+
+.week-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Spasi antara setiap minggu */
+}
+.card {
+    width: calc(50% - 10px); /* Setengah lebar layar dengan spasi */
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%; /* Full lebar untuk layar kecil */
+    }
+
