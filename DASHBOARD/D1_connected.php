@@ -8,19 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 </head>
 <body>
-    <div class="header">
-        <div class="right-header">
-           <!-- Tambahkan tombol untuk mengganti tema -->
-<button id="toggleTheme">Theme</button>
-            <div class="dashboard-text">
-                <h2>Dashboard</h2>
-            </div>
-        </div>
-        <div class="nav">
-            <!-- ... (bagian lain dari header) ... -->
-        </div>
-    </div>
-    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
 
     <div class="container">
         <div class="header">
@@ -28,6 +25,9 @@
                 <div class="search">
                     <input type="text" placeholder="Search...">
                     <button type="submit"><i class="fas fa-search"></i></button>
+                    <!-- Tambahkan tombol untuk mengganti tema -->
+                    <button id="toggleTheme">Toggle Theme</button>
+
                 </div>
                 <div class="user">
                     <a href="#" class="btn"><i class="fas fa-layer-group"></i></a>
@@ -182,3 +182,11 @@
 
 
     
+
+    <script>
+        function goToAfterDashboard() {
+            window.location.href = "after_dashboard.html";
+        }
+    </script>
+</body>
+</html>
