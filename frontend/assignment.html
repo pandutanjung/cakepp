@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigment</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/realease/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="assignment.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <div class="sidebar" id="sidebar">
+            <div class="header-sidebar">
+                <div class="list-item">
+                    <div class="box-logo">
+                        <a href="#">
+                            <img src="assets\Logo.png" alt="" class="icon-logo">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="list-item">
+                    <div class="box">
+                        <a href="index.html">
+                            <img src="assets\dashboards.svg" alt="" class="icon">
+                            <span class="description">Dashboard</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="list-item">
+                    <div class="box">
+                        <a href="notes.html">
+    
+                            <img src="assets\writing.svg"description class="icon">Notes</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="list-item">
+                    <div class="box">
+                        <a href="assignment.html">
+    
+                            <img src="assets\assignment.svg" alt="" class="icon">
+                            <span class="description">Assignments</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="list-item">
+                    <div class="box">
+                        <a href="#">
+    
+                            <img src="assets\user.svg" alt="" class="icon">
+                            <span class="description">Log Out</span>
+                        </a>
+                    </div>
+                    
+                </div>
+    
+    
+            </div>
+            
+            
+
+        </div>
+
+        <div class="main-content">
+            <div class="menu-button" id="menu-button">
+                <input type="checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" id="menu-label">
+                    <div class="hamburger" id="hamburger"></div>
+                </label>
+            </div>
+        </div>
+
+
+        </div>
+        <div class="flex-container">
+            <div class="header">
+            </div>
+            <div class="flex-box">
+                <h2>My Tasks</h2> 
+            </div>
+            <div class="create-btn">
+                <button><img src="assets\newnotes.png" alt="">New Assignment</button>
+            </div>
+            
+            <div class="new-assignment">
+                <div class="assignment-box">
+                    <div class="input-field">
+                        <div class="form-assignment">
+                            <form action="#">
+                                <div class="note-title">
+                                    <input type="text" id="title"placeholder="Masukan Judul Catatan" required >
+                                </div>
+                                <div class="title">
+                                    <input type="text" id="title"placeholder="Masukan Judul Tugas" required>
+                                </div>
+                                <div class="deadline">
+                                    <input type="date" id="deadline" placeholder="Deadline" required>
+                                <div class="task-link">
+                                    <input type="text" id="task-link" placeholder="Masukan Link Tugas">
+                                </div>
+                                <div class="desc">
+                                    <textarea name="desc" id="" cols="30" rows="10" placeholder="Deskripsi Tugas"></textarea>
+                                </div>
+                                <div class="desc">
+                                    <textarea name="desc" id="" cols="30" rows="10" placeholder="Catatan Terkait" required></textarea>
+                                </div>
+                                <div class="button-task">
+                                    <button type="submit">Save</button>
+                                    <button type="submit">Edit</button>
+                                    <button type="submit">Hapus</button>
+                                </div>
+                                
+                            </form>
+                            
+                        </div>
+                    </div>               
+                </div>
+        </div>
+    </div>
+    
+    <script src="sidebar.js"></script>
+    <script src="assignment.js"></script>
+
+</body>
+</html>
