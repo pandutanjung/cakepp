@@ -111,13 +111,105 @@
                 // Fungsi untuk menyimpan catatan, Anda dapat menyesuaikannya sesuai kebutuhan
                 alert("Catatan untuk Minggu " + weekNumber + " disimpan!");
             }
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="notesPlusSidebar.css">
+    
+    <title>Sidebar</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="sidebar" id="sidebar">
+            <div class="header-sidebar">
+                <div class="list-item">
+                    <div class="box-logo">
+                        <a href="#">
+                            <img src="assets\Logo.png" alt="" class="icon-logo">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="list-item">
+                    <div class="box">
+                        <a href="index.html">
+                            <img src="assets\dashboards.svg" alt="" class="icon">
+                            <span class="description">Dashboard</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="list-item">
+                    <div class="box">
+                        <a href="notes.html">
+    
+                            <img src="assets\writing.svg"description class="icon">Notes</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="list-item">
+                    <div class="box">
+                        <a href="assignment.html">
+    
+                            <img src="assets\assignment.svg" alt="" class="icon">
+                            <span class="description">Assignments</span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="list-item">
+                    <div class="box">
+                        <a href="#">
+    
+                            <img src="assets\user.svg" alt="" class="icon">
+                            <span class="description">Log Out</span>
+                        </a>
+                    </div>
+                    
+                </div>
+    
+    
+            </div>
+            
+            
+
+        </div>
+
+        <div class="main-content">
+            <div class="menu-button" id="menu-button">
+                <input type="checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" id="menu-label">
+                    <div class="hamburger" id="hamburger"></div>
+                </label>
+            </div>
+        </div>
+
+
+        </div>
+    </div>
+    <script src="sidebar.js"></script>
+</body>
+</html>
+
+
         </script>
     </body>
     </html>
-    
-    
-        
-
     <script>
         function goToDashboard() {
             window.location.href = "index.html";
